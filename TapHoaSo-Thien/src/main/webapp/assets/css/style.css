@@ -1,0 +1,128 @@
+/* Authen n author CSS */
+/* ------------------- */
+.login-wrap {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 100px -15px;
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+    font-weight: 700;
+}
+
+.form-group a {
+    color: gray;
+}
+
+.form-control {
+    height: 48px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid rgba(41, 41, 41, 0.1);
+}
+
+.form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #e3b04b;
+}
+
+/* Market CSS */
+/* ---------- */
+.market-wrap {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 100px -15px;
+    background: rgb(255, 255, 255);
+    border: 5px solid #98b5f5;
+    border-radius: 5px;
+    height: 600px;
+    overflow: auto;
+}
+
+.table-scroll {
+    width: 100%; /* Chiều rộng 100% để lấp đầy không gian */
+    table-layout: fixed; /* Sử dụng bố cục bảng cố định */
+}
+
+.table-scroll tbody {
+    display: block; /* Hiển thị phần thân của bảng như một khối */
+    overflow-y: auto; /* Tạo thanh cuộn dọc cho phần thân */
+    max-height: 100%; /* Đặt chiều cao tối đa cho phần thân */
+}
+
+.table-scroll thead,
+.table-scroll tbody tr {
+    display: table; /* Hiển thị các hàng như một bảng */
+    width: 100%; /* Chiều rộng bằng 100% */
+    table-layout: fixed; /* Sử dụng bố cục bảng cố định */
+}
+
+.sticky-header {
+    position: sticky; /* Hiển thị phần tiêu đề bảng cố định */
+    top: 0; /* Đặt vị trí cố định ở đầu trang */
+    z-index: 1; /* Đặt chỉ số z cao hơn để hiển thị phần tiêu đề trên cùng */
+    background-color: #98b5f5; /* Màu nền của phần tiêu đề */
+}
+
+/* Sell product CSS */
+/* ---------------- */
+.sell-wrap {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 100px -15px;
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+}
+
+
+.label-form .label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+    font-weight: 700;
+
+}
+
+.label-form {
+    padding-right: 20px;
+    text-align: end;
+}
+
+
